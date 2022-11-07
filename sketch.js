@@ -5,7 +5,7 @@ let xpos, ypos, vx, vy, ax, ay, dt;  //운동 관련 필요 변수들
 //화면 구성 및 입자에 대한 설정
 function setup() {
 	createCanvas(windowWidth, windowHeight);  //화면 크기
-	background(255,0,0);  //배경 색(위치를 어디에 둘지 고민해 보기)
+	background(100);  //배경 색(위치를 어디에 둘지 고민해 보기)
 	ellipseMode(RADIUS);  //반지름을 기준으로 타원그리기
 	xpos = windowWidth/4;  //x의 초기값
     ypos = windowHeight/5;  //y의 초기값
